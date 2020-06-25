@@ -8,7 +8,7 @@ function Photos() {
   useEffect(() => {
       axios.get('https://api.nasa.gov/planetary/apod?api_key=e8x7uyaDvmfbCPAvREOePG4TLeQLPmymlVQdDDK5')
       .then(res=>console.log(res.data)) 
-          setNasaData(res.data);
+        //   setNasaData(res.data);
       });
   } [];
 
@@ -16,7 +16,7 @@ function Photos() {
       <div className="Container">
               <div className="entry">
               {/* <Header {...nasaData} />
-              <Photos {...nasaData} /> */}
+              <Photos {...nasaData} />  */}
               </div>
       </div>
   )
