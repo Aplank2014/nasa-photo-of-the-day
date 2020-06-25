@@ -6,10 +6,10 @@ import Photos from "./Photos";
 function App() {
   return (
     <div className="App">
-           <p>     
+           <div>     
         <Header />
         <Photos/>
-      </p>
+      </div>
     </div>
   );
 }
