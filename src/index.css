@@ -11,3 +11,117 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+html {
+  zoom: 1;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+
+a {
+  color: lightgray;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  width: 100%;
+}
+
+.topbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background: rgba(75, 75, 75, 0.644);
+  position: fixed;
+  width:100%;
+  padding: 2% 0%;
+}
+
+.logo-container {
+  padding: .8%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  color:black;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.sidebar {
+  width: 38%;
+  padding: 1% 2% 1% 2%;
+  position: fixed;
+  max-height: 80px;
+  bottom: 0;
+  left: 0;
+}
+
+.sidebar:hover{
+  max-height: 800px;
+}
+
+.title-btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0 3%;
+}
+
+.title-btn h1 {
+  font-size: 3rem;
+}
+
+.sidebar h2 {
+  font-size: 2.5rem;
+  white-space: nowrap;
+  margin-bottom: 10%;
+  padding-top: 5%;
+}
+
+.sidebar a {
+  margin-bottom: 1%;
+}
+
+.sidebar p, h4 {
+  padding: 2% 0 2% 0;
+  font-size: 1rem;
+}
+
+.page-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.apod-container {
+  height: 100vh;
+  width:100%;
+  overflow: hidden;
+  display:flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.apod-container img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: fill;
+    object-position: center;
+}   
+img {
+  width: 100%;
+    }
